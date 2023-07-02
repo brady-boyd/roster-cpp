@@ -1,0 +1,13 @@
+// create a tic tac toe game. I don't know where to start //
+// I'm going to start with the board. I'm going to make a 3x3 board. //
+public void setup() {
+  size(300, 300);
+  background(255);
+  stroke(0);
+  strokeWeight(5);
+  line(100, 0, 100, 300);
+  line(200, 0, 200, 300);
+  line(0, 100, 300, 100);
+  line(0, 200, 300, 200);
+}
+

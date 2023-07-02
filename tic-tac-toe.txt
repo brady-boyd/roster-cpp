@@ -1,0 +1,19 @@
+// create a tic tac toe game. I don't know where to start //
+// I'm going to start with the board. I'm going to make a 3x3 board. //
+char board[3][3] = {
+    {' ', ' ', ' '},
+    {' ', ' ', ' '},
+    {' ', ' ', ' '}
+};
+
+void display_board(char board[][3]) {
+    // Loop through each row and column of the board and print the current contents
+    for (int row = 0; row < 3; row++) {
+        for (int col = 0; col < 3; col++) {
+            std::cout << board[row][col] << " ";
+        }
+        std::cout << std::endl;
+    }
+}
+diplay_board(board);
+
